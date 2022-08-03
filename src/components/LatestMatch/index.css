@@ -1,0 +1,145 @@
+/* Write your CSS here */
+.latest-match-card-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.latest-match-heading {
+  font-size: 20px;
+  color: white;
+  font-family: 'Bree Serif';
+  font-weight: 700;
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.latest-match-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-logo-container {
+    width: 60%;
+  }
+}
+
+.latest-match-details-container {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  font-family: 'Bree Serif';
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-container {
+    width: 100%;
+  }
+}
+
+.competing-team-heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.date {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.venue {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.latest-match-logo {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-logo {
+    min-width: 150px;
+    min-height: 150px;
+    max-height: 200px;
+  }
+}
+
+.latest-match-details-info-container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* @media screen and (min-width: 768px) {
+  .latest-match-details-info-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+} */
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-info-container {
+    width: 33%;
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+}
+
+.match-info {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .match-info {
+    width: 40%;
+  }
+}
+
+.label {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 14px;
+  }
+}
+
+.value {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .value {
+    font-size: 16px;
+  }
+}
